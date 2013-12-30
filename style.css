@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  background: #fff;
+  color: #777;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** Navbar **/
+.navbar {
+  min-height: 40px;
+  max-height: 40px;
+  padding-top: 5px;
+  margin: 0;
+  line-height: 27px;
+}
+
+.navbar .navbar-brand {
+  padding: 0 20px 0 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar .logo a {
+  color: #555;
+}
+
+.navbar .logo span:last-child {
+  padding-left: 10px;
+}
+
+/** Map **/
+body > .container {
+  padding: 40px 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#loader {
+  display: none;
+  position: absolute;
+  background: white;
+  left: 45px;
+  top: 50px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0 10px;
+}
+
+.leaflet-popup-content {
+  text-align: center; 
+}
+
+.leaflet-popup-content h3 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.leaflet-popup-content a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/** Footer **/
+#footer {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255,255,255,.7);
+  position: absolute;
+  bottom: 0;
+}
+
+#footer .container > div {
+  padding-top: 11px;
+}

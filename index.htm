@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons | OSMTools.org</title>
+
+    <link rel="icon" type="image/png" href="../_img/icon.png"/>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oxygen:400,700&subset=latin,latin-ext' type='text/css'>
+    <link rel="stylesheet" href="lib/bootstrap.css" >
+    <link rel="stylesheet" href="lib/leaflet.css" />
+    <link rel="stylesheet" href="lib/leaflet.markercluster.css" />
+    <link rel="stylesheet" href="lib/leaflet.markercluster.default.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="lib/leaflet.js"></script>
+    <script src="lib/leaflet.bing.js"></script>
+    <script src="lib/leaflet.markercluster.js"></script>
+    <script src="lib/leaflet.hash.js"></script>
+
+    <script src="lib/jquery-1.10.2.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>  
+    <div class="navbar navbar-default navbar-fixed-top" id="top" role="navigation">
+      <div class="navbar-inner">
+        <div class="container logo">
+          <a class="navbar-brand" href="."><img src="img/map-logo.png" alt="OSMTools" /> commons</a>
+          <span>/</span>
+          <span>part of <a href="http://osmtools.org/">osmtools.org</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="loader" class="leaflet-bar leaflet-control"></div>
+      <div id="map"></div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="text-muted pull-left"><small>© 2013</small> by <a href="https://github.com/yarl">Yarl</a> and <a href="https://github.com/yarl/osmtools-commons/graphs/contributors">commiters</a>. <small>Map by <a href="http://osm.org/">OpenStreetMap contributors</a>. Tiles by <a href="http://maps.skobbler.com/">Skobbler Maps</a>. Logo by <a href="http://smallicons.net/">smallicons.net</a></small></div>
+        <div class="pull-right">
+          <!--<iframe src="http://ghbtns.com/github-btn.html?user=yarl&repo=osmtools-indoor&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe>
+          <iframe src="http://ghbtns.com/github-btn.html?user=yarl&repo=osmtools-indoor&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="75" height="20"></iframe>-->
+        </div>
+      </div>
+    </div>
+    <script src="start.js"></script>
+  </body>
+</html>
+
